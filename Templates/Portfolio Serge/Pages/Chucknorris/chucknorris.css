@@ -1,0 +1,120 @@
+body {
+    background-image: url(Image/flgtex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#topdiv {
+    width: 800px;
+    height: 190px;
+    background-color: none;
+    align-self: center;
+    text-align: center;
+    font-family: 'Fresca';
+    font-size: large;
+}
+
+#mrbutton {
+    width: 300px;
+    height: 120px;
+    background-color: none;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+button {
+    width: 90px;
+    height: 40px;
+    border-color: none(223, 46, 14);
+    border-radius: 10%;
+    background-color: rgb(214, 185, 20);
+    border: solid 2px black;
+}
+
+#middlediv {
+    min-width: 900px;
+    min-height: 220px;
+    align-self: center;
+    background-color: rgb(10, 9, 78);
+    border-radius: 10px;
+    border: solid 2px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+    border-radius: 90%;
+    border: solid 10px rgb(131, 16, 79);
+}
+
+.seul {
+    width: 90px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    align-self: center;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#firstlastdiv {
+    width: 390px;
+    height: 120px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: none;
+}
+
+#lastdiv {
+    width: 250px;
+    height: 120px;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    background-color: none;
+}
+
+.direction {
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 10%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+}
+
+i {
+    width: 30px;
+    height: 20px;
+    color: white;
+    align-self: center;
+}

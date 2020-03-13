@@ -1,0 +1,79 @@
+body {
+    background-image: url(../Image/pokemon.jpg);
+    background-size: cover;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#bigmain {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main {
+    /* width: 100vw;*/
+    /* height: 400px;*/
+    width: 800px;
+    height: 500px;
+    align-self: center;
+    background-image: url(Image/pokeball.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width: 10px;
+    border-color: rgb(236, 205, 29);
+    border-bottom-style: groove;
+    border-top-style: groove;
+    border-left-style: groove;
+    border-right-style: groove;
+    color: black;
+    font-size: 15px;
+}
+
+#main p {
+    font-weight: bolder;
+}
+
+#top {
+    width: 1395px;
+    height: 100px;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#buttons {
+    width: 600px;
+    height: 120px;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+button {
+    width: 130px;
+    height: 50px;
+    align-self: center;
+}
+
+img {
+    width: 200px;
+    height: 110px;
+    align-self: center;
+}
+
+button {
+    border: darkblue solid 3px;
+    background-color: rgb(236, 205, 26);
+}

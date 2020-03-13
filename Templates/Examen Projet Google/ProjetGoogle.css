@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    /*Concerne les marges de tout le body*/
+}
+
+#container {
+    width: 98vw;
+    height: 100vh;
+    background-color: rgb(255, 254, 254);
+    width: 1409px;
+    height: 670px;
+    /*Nom de la <div> globale*/
+}
+
+#Header {
+    background-color: rgb(255, 255, 255);
+    width: 1409px;
+    height: 50px;
+    border-width: none;
+    border-style: none;
+    border-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /*Nom de la <div> de l'en-tête de la page */
+}
+
+#Upright {
+    width: 60px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-basis: 1%;
+    margin-right: 20px;
+    align-items: center;
+    /*Div pour le lien Gmail*/
+}
+
+#Corpse {
+    background-color: rgb(255, 255, 255);
+    width: 1409px;
+    height: 560px;
+    border-width: none;
+    border-style: none;
+    border-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*Nom de la <div> du corps de page */
+}
+
+#ImageGoogle {
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    padding: 90px;
+    border-top: solid white 60px;
+    /* Div pour image Google*/
+}
+
+img {
+    width: 290px;
+    height: 88px;
+    /*Image google*/
+}
+
+#Barrederecherche {
+    background-color: none;
+    width: 500px;
+    height: 60px;
+    /*Div pour barre de recherche*/
+}
+
+#Googlebar {
+    height: 30px;
+    border-radius: 20px;
+    /* Input hauteur de la barre de recherche*/
+}
+
+#Lesinputs {
+    background-color: none;
+    width: 249px;
+    height: 80px;
+}
+
+.bar {
+    height: 30px;
+    border-radius: 1px;
+}
+
+#Footer {
+    background-color: white;
+    width: 1409px;
+    height: 60px;
+    border-width: none;
+    border-style: none;
+    border-color: none;
+    /*Nom de la <div> pour le pied de page */
+}
+
+#UpFooter {
+    background-color: lightgrey;
+    width: 1409px;
+    height: 30px;
+}
+
+#France {
+    font-family: sans-serif;
+    font-size: small;
+    /*Font pour le mot "France"*/
+}
+
+hr {
+    color: white;
+    width: 1409px;
+    height: 1px;
+    /* ligne horizontale pour le séparer deux div dans le footer*/
+}
+
+#BottomFooter {
+    background-color: lightgray;
+    widows: 1409px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#textGauche a {
+    color: rgb(134, 131, 131);
+    font-family: sans-serif;
+    font-size: small;
+    /* liens pour les éléments du footer à gaucher*/
+}
+
+#textDroit a {
+    color: rgb(134, 131, 131);
+    font-family: sans-serif;
+    font-size: smaller;
+    /* liens pour les éléments du footer à droite*/
+}
+
+.Style {
+    font-family: sans-serif;
+    margin-right: 20px;
+    margin-left: 10px;
+    color: rgb(134, 131, 131)
+}
+
+.SStyle {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

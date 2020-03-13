@@ -1,0 +1,111 @@
+.Cloud {
+    animation: slidein 200s alternate linear infinite;
+    font-size: 70px;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 200%;
+    }
+    to {
+        margin-left: 0%;
+        width: 200%;
+    }
+}
+
+.fa-cloud {
+    color: whitesmoke;
+    width: 100px;
+    height: 100px;
+}
+
+.CloudA {
+    animation: slideina 200s alternate linear infinite;
+    font-size: 70px;
+}
+
+@keyframes slideina {
+    from {
+        margin-left: 0%;
+        width: 200px;
+    }
+    to {
+        margin-left: 100%;
+        width: 200%;
+    }
+}
+
+.Sun {
+    animation: soleil 120s alternate linear;
+    font-size: 90px;
+    color: gold;
+}
+
+@keyframes soleil {
+    from {
+        margin-left: 0%;
+        width: 200px;
+    }
+    to {
+        margin-left: 100%;
+        width: 200%;
+    }
+}
+
+.PlaneA {
+    font-size: 40px;
+    color: black;
+    animation: avionA 80s reverse linear infinite;
+}
+
+@keyframes avionA {
+    from {
+        margin-left: 100%;
+        width: 50%;
+    }
+    to {
+        margin-left: 0%;
+        width: 50%;
+    }
+}
+
+.Fly {
+    font-size: 20px;
+    color: red;
+    animation: mongole 180s linear infinite;
+}
+
+@keyframes mongole {
+    from {
+        margin-left: 100%;
+        width: 200px;
+        top: 0px
+    }
+    to {
+        margin-left: 0%;
+        width: 200%;
+        top: 100px;
+    }
+}
+
+.Tree {
+    font-size: 340px;
+}
+
+.fa-tree {
+    color: green;
+}
+
+.fa-campground {
+    color: rgb(85, 12, 12);
+    font-size: 180px;
+}
+
+.decor {
+    background: linear-gradient(blue, lightblue);
+}
+
+.ground {
+    background: linear-gradient(lightblue, brown);
+}

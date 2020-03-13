@@ -1,0 +1,11 @@
+.messageok {
+    visibility: hidden;
+}
+
+.messagenon {
+    visibility: hidden;
+}
+
+.afficher {
+    visibility: visible;
+}

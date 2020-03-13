@@ -1,0 +1,141 @@
+.red {
+    background-color: none;
+}
+
+.green {
+    background-color: none;
+}
+
+.blue {
+    background-color: none;
+}
+
+div {
+    height: 30vh;
+}
+
+body {
+    background-image: url(image/airworld.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*/==========================================================================
+============================= + Haut-de-Page + ==============================
+========================================================================= /*/
+
+.avion {
+    width: 100px;
+    height: 80px;
+    border-radius: 70%;
+}
+
+#travel {
+    text-align: center;
+    background-color: rgba(128, 17, 50, 0.767);
+    color: white;
+    width: 1362px;
+    height: 160px;
+    border-radius: 1%;
+}
+
+
+/*/===========================================================================
+============================= + Carousel + ===================================
+==========================================================================/*/
+
+#carouselExampleIndicators {
+    height: 600px;
+}
+
+.carousel-inner {
+    width: 100vw;
+    height: 600px;
+    border-radius: 1%;
+}
+
+.imageCar {
+    height: 600px;
+}
+
+h5 {
+    display: inline-block;
+    padding: 10px;
+    background: #B9121B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.p {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 13px;
+}
+
+
+/*/===========================================================================
+============================= + Newsletter + =================================
+=========================================================================== /*/
+
+#newsnews {
+    width: 1360px;
+    height: 300px;
+}
+
+.newstext {
+    text-align: center;
+    background-color: rgba(128, 17, 50, 0.767);
+    width: 1362px;
+    height: 50px;
+    color: white;
+}
+
+#Text {
+    width: 440px;
+    height: 210px;
+    background-color: rgba(26, 11, 95, 0.705);
+    color: white;
+    border-radius: 2%;
+}
+
+hr {
+    border: none;
+    border-top: 8px double rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    height: 2px;
+}
+
+
+/*/===========================================================================
+============================ + Témoignages + =================================
+=========================================================================== /*/
+
+.profile {
+    width: 120px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.textes {
+    background-color: pink;
+    height: 20px;
+    width: 100px;
+}
+
+#tem {
+    text-align: center;
+    background-color: rgba(128, 17, 50, 0.767);
+    width: 1362px;
+    height: 50px;
+    color: white;
+}
+
+.paragraphe {
+    width: 410px;
+    height: 130px;
+    background-color: rgb(128, 17, 50);
+    color: white;
+    border-radius: 3%;
+}

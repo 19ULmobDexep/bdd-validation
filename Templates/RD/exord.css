@@ -1,0 +1,90 @@
+/*body {
+    background-color: ivory;
+}
+
+.violet {
+    background-color: rgb(204, 69, 204);
+    width: 1000px;
+    height: 50px;
+}
+
+.green {
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 50px;
+}
+
+.red {
+    background-color: rgb(218, 76, 76);
+    width: 1000px;
+    height: 50px;
+}
+
+
+@media (min-width: 800px) {
+    body {
+        background: rgb(255, 255, 255);
+    }
+}
+
+@media (min-width: 800px) {
+    .violet {
+        background: yellow;
+    }
+}
+
+@media (min-width: 800px) {
+    .green {
+        background: rgb(51, 150, 51);
+    }
+}
+
+@media (min-width: 800px) {
+    .red {
+        background: rgb(236, 113, 160);
+    }
+}
+
+
+@media (min-width: 1200px) {
+    body {
+        background: pink;
+    }
+}
+*/
+
+div {
+    background-color: black;
+    width: 1525px;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+@media (max-width: 750px) {
+    div {
+        background-color: black;
+        width: 1525px;
+        height: 50px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    li {
+        text-decoration: none;
+        color: white;
+        list-style-type: none;
+    }
+}

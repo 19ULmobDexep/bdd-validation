@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  node_env:
+      build: .
+      container_name: node-dock
+      ports:
+          - 8080:3000
+      volumes:
+          - ./:/usr/src/app

@@ -1,0 +1,117 @@
+#MainBlock {
+    background-color: none;
+    border-style: none;
+    border-width: none;
+    width: 1380px;
+    height: 600px;
+}
+
+#MainBlock2 {
+    background-color: none;
+    width: 1380px;
+    height: 80px;
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+}
+
+#LogoHelloCookies {
+    background-color: none;
+    width: 230px;
+    height: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: row;
+}
+
+#Logo {
+    width: 65px;
+    margin: -15px;
+    padding: 5px;
+    margin-left: -25px;
+}
+
+#HELLOCOOKIES {
+    margin: 9px;
+    font-family: 'Dancing Script';
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#ListeUPRIGHT {
+    background-color: none;
+    width: 230px;
+    height: 30px;
+    margin-right: 80px;
+    margin: 15px;
+}
+
+#ULA {
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 4px;
+    font-family: 'Open Sans';
+    color: rgb(143, 141, 141);
+}
+
+#MainBlock3 {
+    background-color: none;
+    width: 1380px;
+    height: 600px;
+    display: flex;
+    justify-content: row;
+}
+
+#CenterBlock {
+    background-color: whitesmoke;
+    width: 1140px;
+    height: 600px;
+}
+
+#TopCenterBlock {
+    background-color: rgb(219, 177, 171);
+    width: 1390px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(155, 154, 154);
+}
+
+#CentercenterBlock {
+    background-color: rgb(236, 233, 233);
+    width: 1390px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CenterBis {
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#CenterBis div {
+    display: flex;
+}
+
+#CenterBis div label {
+    flex-basis: 20%;
+}
+
+#ListeLEFTCENTER a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,199 @@
+#MainBlock {
+    width: 1200px;
+    height: 1225px;
+    background-color: white;
+}
+
+#BlockOrange {
+    width: 310px;
+    height: 1225px;
+    background-color: grey;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#BlockJaune {
+    width: 60%;
+    height: 1225px;
+    background-color: whitesmoke;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Gauche {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+.Droite {
+    display: inline-block;
+    width: 60%;
+    font-size: 12px;
+}
+
+.Caractère {
+    font-weight: bold;
+}
+
+#Gauchebis {
+    display: inline-block;
+    width: 55%;
+    font-size: 12px;
+}
+
+#Droitebis {
+    display: inline-block;
+    vertical-align: right;
+    width: 40%;
+    font-size: 12px;
+}
+
+.Special {
+    font-weight: bold;
+}
+
+.Special2 {
+    font-weight: bold;
+}
+
+.Titre {
+    font-family: Tahoma;
+    color: white;
+    font-size: 25px;
+}
+
+.Profilepicture {
+    margin: 18%;
+    border-radius: 70%;
+}
+
+.IMAGE {
+    border-radius: 100%;
+}
+
+#AllBlock {
+    margin: 30px;
+}
+
+#AllBlock2 {
+    margin: 30px;
+}
+
+#BlockName {
+    width: 90%;
+    font-size: 63px;
+    font-family: Tahoma;
+}
+
+i {
+    color: darkblue;
+}
+
+.Taille1 {
+    font-size: 5px;
+}
+
+#Felix {
+    font-family: Tahoma;
+    font-size: 50px;
+}
+
+#OTTOUBA {
+    color: blue;
+}
+
+#EXPERIENCES {
+    font-family: Tahoma;
+    font-size: 28px;
+}
+
+#EDUCATION {
+    font-family: Tahoma;
+    font-size: 28px;
+}
+
+#REFERENCE {
+    font-family: Tahoma;
+    font-size: 28px;
+}
+
+nav {
+    border-bottom: 1px solid white;
+}
+
+progress [Pr01] {
+    width: 40px;
+    height: 80px;
+    vertical-align: left;
+}
+
+progress [Pr02] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr03] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr04] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr05] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr06] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr07] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr08] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr09] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr010] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr011] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr012] {
+    width: 0px;
+    height: 80px;
+}
+
+progress [Pr013] {
+    width: 40px;
+    height: 80px;
+}
+
+progress [Pr014] {
+    width: 40px;
+    height: 40px;
+}
+
+p progress {
+    float: right;
+}
